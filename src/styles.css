@@ -1,0 +1,33 @@
+body {
+  background-color: #f1f3f6;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.profile-list {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.profile {
+  border: 1px solid black;
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+img:hover {
+  box-shadow: -1px 7px 17px -7px rgb(0 0 0 / 75%);
+}
+
+.profile h4 {
+  text-align: center;
+}
